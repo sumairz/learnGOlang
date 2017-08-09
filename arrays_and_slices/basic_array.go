@@ -22,4 +22,9 @@ func main() {
 	strArr := [5]string{"Sumair", "Haris", "Askani"}
 	strArr[3] = "Alex"
 	fmt.Println(strArr)
+
+	// array size based on the length of data
+	lenArr := [...]int{1, 2, 4, 5, 6, 7, 8}
+	//lenArr[7] = 100 // in this case cannot add new index to the array
+	fmt.Println(lenArr)
 }
