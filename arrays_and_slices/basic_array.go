@@ -27,4 +27,8 @@ func main() {
 	lenArr := [...]int{1, 2, 4, 5, 6, 7, 8}
 	//lenArr[7] = 100 // in this case cannot add new index to the array
 	fmt.Println(lenArr)
+
+	// Creating a slice of an array
+	mySlice := lenArr[2:3]
+	fmt.Println("Slice: ", mySlice, " and length is:", len(mySlice))
 }
